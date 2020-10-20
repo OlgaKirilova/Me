@@ -1,0 +1,13 @@
+using System;				
+public class Me	
+{
+	public static void Main()
+	{
+		int[] noOne = {75,105,114,105,108,111,118,97};		
+		foreach(int ch in noOne)
+		{
+			string name = char.ConvertFromUtf32(ch);
+			Console.Write(name);
+		}		
+	}
+}
